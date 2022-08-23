@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: black;
+}
+header nav{
+    background: linear-gradient(to right, #000000, #9e382c);
+}
+.navbar-brand{
+font-size: 30px;
+padding: 10px;
+padding-left: 20px;
+padding-top: 0;
+animation-name: logoefecto;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-duration: 3.5s;
+animation-delay: 0s;
+}
+@keyframes logoefecto{
+    0%{ scale: 1.0;}
+    50%{ scale: 1.3;
+    color: yellowgreen;}
+    100%{scale: 1.0;}
+}
+.nav-item{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+.container-fluid{
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+.al{
+    background-image: url(./media/Foto2.PNG);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border-radius: 5px;
+}
+.ar{
+    padding-top: 90px;
+    background: linear-gradient(to left, #702e2e, #3a1818);
+    text-shadow: 1px 1px 5px #000;
+    border-radius: 5px;
+}
+.ar h3:hover{
+    color: yellowgreen;
+}
+footer{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, #000000, #9e382c);
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+}
+.fa-brands{
+    font-size: 60px;
+    padding: 20px;
+    color: whitesmoke;
+}
+.fa-brands:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+    color: yellowgreen;
+}
+.jumbotron{
+    color: whitesmoke;
+    padding: 50px;
+    background: linear-gradient(to right, #000000, #4b1d1d);
+}
+.canciones{
+    background-color: rgb(135, 141, 143, .3);
+}
